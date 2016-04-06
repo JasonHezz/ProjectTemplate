@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.teyang.huzhe.teamtask.ui.activity.ScrollingActivity">
+
+  <item
+      android:id="@+id/action_favorite"
+      android:orderInCategory="100"
+      android:title="设置"
+      android:icon="@drawable/ic_menu_favorite"
+      app:showAsAction="always"/>
+  <item
+      android:id="@+id/action_notifications"
+      android:orderInCategory="100"
+      android:title="设置"
+      android:icon="@drawable/ic_menu_notifications"
+      app:showAsAction="always"/>
+  <item
+      android:id="@+id/action_settings"
+      android:orderInCategory="100"
+      android:title="设置"
+      app:showAsAction="never"/>
+</menu>
